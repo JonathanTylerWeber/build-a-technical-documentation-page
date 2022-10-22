@@ -6,10 +6,10 @@
 
 .title {
   font-weight: bold;
-  font-size: 20;
+  font-size: 30;
 }
 
-p, ul, code {
+p,code {
   text-indent: 10
 }
 
@@ -22,22 +22,35 @@ nav {
   top: 0%;
   left: 0%;
   padding-right: 10;
-  padding-top: 5;
-  background-color: rgb(163,233,65)
+  background-color: rgb(163,233,65);
+  border: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  
 }
 
 nav h1 {
   text-align: center;
+  font-size: 30;
+  padding-left: 4;
 }
 
 nav a  {
   text-decoration: none;
-  color: black
+  color: black;
+
 }
 
 nav li {
   text-decoration: none;
-  color: black
+  color: black;
+  width: 100%;
+  list-style: none;
+
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 5;
 }
 
 #main-doc {
@@ -50,3 +63,18 @@ nav li {
 a {
   cursor: pointer;
 }
+
+code {
+  background-color: rgb(163,233,65);
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+    margin-top: 400px;
+  }
+  nav {
+    position: absolute;
+    margin-left: 17%;
+  }}
+
