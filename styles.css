@@ -1,0 +1,52 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+.title {
+  font-weight: bold;
+  font-size: 20;
+}
+
+p, ul, code {
+  text-indent: 10
+}
+
+body {
+  background-color: rgb(243,255,224)
+}
+
+nav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding-right: 10;
+  padding-top: 5;
+  background-color: rgb(163,233,65)
+}
+
+nav h1 {
+  text-align: center;
+}
+
+nav a  {
+  text-decoration: none;
+  color: black
+}
+
+nav li {
+  text-decoration: none;
+  color: black
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 250px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+a {
+  cursor: pointer;
+}
